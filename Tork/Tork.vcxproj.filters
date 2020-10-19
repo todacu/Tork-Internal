@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Definitions">
+      <UniqueIdentifier>{a682b9ff-2ed7-4c99-9e5e-61a6b6eb713b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hooking">
+      <UniqueIdentifier>{db78985b-587e-4f23-90a7-9741f55e752c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Signatures">
+      <UniqueIdentifier>{174acaad-ff04-488f-a697-2dc869f86212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Memory">
+      <UniqueIdentifier>{70c6b11c-dc4c-4407-8f37-16d68695c108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controls">
+      <UniqueIdentifier>{234d2677-9dbb-471b-860a-e0c1cdeec8dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Drawing">
+      <UniqueIdentifier>{ea577830-4872-4606-a2c3-9d8d2b5fd1b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Function Wrap">
+      <UniqueIdentifier>{ec92270d-eb37-433c-aaeb-b1add8fb4175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Spotify">
+      <UniqueIdentifier>{7bd42198-6eef-414b-b67a-6c469a2ed80e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Discord">
+      <UniqueIdentifier>{6f71813a-e76e-4010-8440-71cc0d2be9e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Discord\Includes">
+      <UniqueIdentifier>{7bb372c1-8762-4c4b-943a-723ed238756d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Header Files\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking.h">
+      <Filter>Header Files\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="signatures.h">
+      <Filter>Header Files\Signatures</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="user_interface.h">
+      <Filter>Header Files\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="input_hook.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="reclass.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Header Files\Function Wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="features.h">
+      <Filter>Header Files\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="spotify_int.h">
+      <Filter>Header Files\Spotify</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Header Files\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="discord_int.h">
+      <Filter>Header Files\Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\include\discord_register.h">
+      <Filter>Header Files\Discord\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\include\discord_rpc.h">
+      <Filter>Header Files\Discord\Includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hooking.cpp">
+      <Filter>Header Files\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="signatures.cpp">
+      <Filter>Header Files\Signatures</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>Header Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>Header Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Header Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="user_interface.cpp">
+      <Filter>Header Files\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="input_hook.cpp">
+      <Filter>Header Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Header Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>Header Files\Function Wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="features.cpp">
+      <Filter>Header Files\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="spotify_int.cpp">
+      <Filter>Header Files\Spotify</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Header Files\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="discord_int.cpp">
+      <Filter>Header Files\Discord</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
